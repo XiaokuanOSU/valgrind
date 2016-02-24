@@ -1,0 +1,1248 @@
+Kb3/
+├── Kb3.iml
+├── app
+│   ├── app.iml
+│   ├── build
+│   │   ├── generated
+│   │   │   ├── res
+│   │   │   │   ├── resValues
+│   │   │   │   │   └── androidTest
+│   │   │   │   └── rs
+│   │   │   │       ├── androidTest
+│   │   │   │       │   └── debug
+│   │   │   │       └── debug
+│   │   │   └── source
+│   │   │       ├── aidl
+│   │   │       │   ├── androidTest
+│   │   │       │   │   └── debug
+│   │   │       │   └── debug
+│   │   │       ├── buildConfig
+│   │   │       │   ├── androidTest
+│   │   │       │   │   └── debug
+│   │   │       │   │       └── zhangx
+│   │   │       │   │           └── kb3
+│   │   │       │   │               └── test
+│   │   │       │   │                   └── BuildConfig.java
+│   │   │       │   └── debug
+│   │   │       │       └── zhangx
+│   │   │       │           └── kb3
+│   │   │       │               └── BuildConfig.java
+│   │   │       ├── r
+│   │   │       │   ├── androidTest
+│   │   │       │   │   └── debug
+│   │   │       │   └── debug
+│   │   │       │       ├── android
+│   │   │       │       │   └── support
+│   │   │       │       │       └── v7
+│   │   │       │       │           └── appcompat
+│   │   │       │       │               └── R.java
+│   │   │       │       └── zhangx
+│   │   │       │           └── kb3
+│   │   │       │               └── R.java
+│   │   │       └── rs
+│   │   │           ├── androidTest
+│   │   │           │   └── debug
+│   │   │           └── debug
+│   │   ├── intermediates
+│   │   │   ├── assets
+│   │   │   │   ├── androidTest
+│   │   │   │   │   └── debug
+│   │   │   │   └── debug
+│   │   │   ├── classes
+│   │   │   │   └── debug
+│   │   │   │       ├── android
+│   │   │   │       │   └── support
+│   │   │   │       │       └── v7
+│   │   │   │       │           └── appcompat
+│   │   │   │       │               ├── R$anim.class
+│   │   │   │       │               ├── R$attr.class
+│   │   │   │       │               ├── R$bool.class
+│   │   │   │       │               ├── R$color.class
+│   │   │   │       │               ├── R$dimen.class
+│   │   │   │       │               ├── R$drawable.class
+│   │   │   │       │               ├── R$id.class
+│   │   │   │       │               ├── R$integer.class
+│   │   │   │       │               ├── R$layout.class
+│   │   │   │       │               ├── R$string.class
+│   │   │   │       │               ├── R$style.class
+│   │   │   │       │               ├── R$styleable.class
+│   │   │   │       │               └── R.class
+│   │   │   │       └── zhangx
+│   │   │   │           └── kb3
+│   │   │   │               ├── BuildConfig.class
+│   │   │   │               ├── MainActivity.class
+│   │   │   │               ├── R$anim.class
+│   │   │   │               ├── R$attr.class
+│   │   │   │               ├── R$bool.class
+│   │   │   │               ├── R$color.class
+│   │   │   │               ├── R$dimen.class
+│   │   │   │               ├── R$drawable.class
+│   │   │   │               ├── R$id.class
+│   │   │   │               ├── R$integer.class
+│   │   │   │               ├── R$layout.class
+│   │   │   │               ├── R$menu.class
+│   │   │   │               ├── R$mipmap.class
+│   │   │   │               ├── R$string.class
+│   │   │   │               ├── R$style.class
+│   │   │   │               ├── R$styleable.class
+│   │   │   │               └── R.class
+│   │   │   ├── debug
+│   │   │   │   └── merging
+│   │   │   ├── dependency-cache
+│   │   │   │   └── debug
+│   │   │   ├── dex
+│   │   │   │   └── debug
+│   │   │   │       └── classes.dex
+│   │   │   ├── exploded-aar
+│   │   │   │   └── com.android.support
+│   │   │   │       ├── appcompat-v7
+│   │   │   │       │   └── 23.0.0
+│   │   │   │       │       ├── AndroidManifest.xml
+│   │   │   │       │       ├── R.txt
+│   │   │   │       │       ├── aapt
+│   │   │   │       │       │   └── AndroidManifest.xml
+│   │   │   │       │       ├── aidl
+│   │   │   │       │       ├── annotations.zip
+│   │   │   │       │       ├── assets
+│   │   │   │       │       ├── jars
+│   │   │   │       │       │   └── classes.jar
+│   │   │   │       │       ├── public.txt
+│   │   │   │       │       └── res
+│   │   │   │       │           ├── anim
+│   │   │   │       │           │   ├── abc_fade_in.xml
+│   │   │   │       │           │   ├── abc_fade_out.xml
+│   │   │   │       │           │   ├── abc_grow_fade_in_from_bottom.xml
+│   │   │   │       │           │   ├── abc_popup_enter.xml
+│   │   │   │       │           │   ├── abc_popup_exit.xml
+│   │   │   │       │           │   ├── abc_shrink_fade_out_from_bottom.xml
+│   │   │   │       │           │   ├── abc_slide_in_bottom.xml
+│   │   │   │       │           │   ├── abc_slide_in_top.xml
+│   │   │   │       │           │   ├── abc_slide_out_bottom.xml
+│   │   │   │       │           │   └── abc_slide_out_top.xml
+│   │   │   │       │           ├── color
+│   │   │   │       │           │   ├── abc_background_cache_hint_selector_material_dark.xml
+│   │   │   │       │           │   ├── abc_background_cache_hint_selector_material_light.xml
+│   │   │   │       │           │   ├── abc_primary_text_disable_only_material_dark.xml
+│   │   │   │       │           │   ├── abc_primary_text_disable_only_material_light.xml
+│   │   │   │       │           │   ├── abc_primary_text_material_dark.xml
+│   │   │   │       │           │   ├── abc_primary_text_material_light.xml
+│   │   │   │       │           │   ├── abc_search_url_text.xml
+│   │   │   │       │           │   ├── abc_secondary_text_material_dark.xml
+│   │   │   │       │           │   ├── abc_secondary_text_material_light.xml
+│   │   │   │       │           │   ├── switch_thumb_material_dark.xml
+│   │   │   │       │           │   └── switch_thumb_material_light.xml
+│   │   │   │       │           ├── color-v11
+│   │   │   │       │           │   ├── abc_background_cache_hint_selector_material_dark.xml
+│   │   │   │       │           │   └── abc_background_cache_hint_selector_material_light.xml
+│   │   │   │       │           ├── color-v23
+│   │   │   │       │           │   └── abc_color_highlight_material.xml
+│   │   │   │       │           ├── drawable
+│   │   │   │       │           │   ├── abc_btn_borderless_material.xml
+│   │   │   │       │           │   ├── abc_btn_check_material.xml
+│   │   │   │       │           │   ├── abc_btn_colored_material.xml
+│   │   │   │       │           │   ├── abc_btn_default_mtrl_shape.xml
+│   │   │   │       │           │   ├── abc_btn_radio_material.xml
+│   │   │   │       │           │   ├── abc_cab_background_internal_bg.xml
+│   │   │   │       │           │   ├── abc_cab_background_top_material.xml
+│   │   │   │       │           │   ├── abc_dialog_material_background_dark.xml
+│   │   │   │       │           │   ├── abc_dialog_material_background_light.xml
+│   │   │   │       │           │   ├── abc_edit_text_material.xml
+│   │   │   │       │           │   ├── abc_item_background_holo_dark.xml
+│   │   │   │       │           │   ├── abc_item_background_holo_light.xml
+│   │   │   │       │           │   ├── abc_list_selector_background_transition_holo_dark.xml
+│   │   │   │       │           │   ├── abc_list_selector_background_transition_holo_light.xml
+│   │   │   │       │           │   ├── abc_list_selector_holo_dark.xml
+│   │   │   │       │           │   ├── abc_list_selector_holo_light.xml
+│   │   │   │       │           │   ├── abc_ratingbar_full_material.xml
+│   │   │   │       │           │   ├── abc_spinner_textfield_background_material.xml
+│   │   │   │       │           │   ├── abc_switch_thumb_material.xml
+│   │   │   │       │           │   ├── abc_tab_indicator_material.xml
+│   │   │   │       │           │   ├── abc_text_cursor_material.xml
+│   │   │   │       │           │   └── abc_textfield_search_material.xml
+│   │   │   │       │           ├── drawable-hdpi
+│   │   │   │       │           │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │       │           │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_list_focused_holo.9.png
+│   │   │   │       │           │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │       │           │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │       │           ├── drawable-ldrtl-hdpi
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           ├── drawable-ldrtl-mdpi
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           ├── drawable-ldrtl-xhdpi
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           ├── drawable-ldrtl-xxhdpi
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           ├── drawable-ldrtl-xxxhdpi
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           ├── drawable-mdpi
+│   │   │   │       │           │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │       │           │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_list_focused_holo.9.png
+│   │   │   │       │           │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │       │           │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │       │           ├── drawable-v21
+│   │   │   │       │           │   ├── abc_action_bar_item_background_material.xml
+│   │   │   │       │           │   └── abc_btn_colored_material.xml
+│   │   │   │       │           ├── drawable-v23
+│   │   │   │       │           │   └── abc_control_background_material.xml
+│   │   │   │       │           ├── drawable-xhdpi
+│   │   │   │       │           │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │       │           │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_list_focused_holo.9.png
+│   │   │   │       │           │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │       │           │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │       │           ├── drawable-xxhdpi
+│   │   │   │       │           │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │       │           │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_list_focused_holo.9.png
+│   │   │   │       │           │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │       │           │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │       │           │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │       │           │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │       │           │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │       │           │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │       │           ├── drawable-xxxhdpi
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │       │           │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │       │           │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │       │           │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │       │           │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │       │           │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │       │           │   └── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │       │           ├── layout
+│   │   │   │       │           │   ├── abc_action_bar_title_item.xml
+│   │   │   │       │           │   ├── abc_action_bar_up_container.xml
+│   │   │   │       │           │   ├── abc_action_bar_view_list_nav_layout.xml
+│   │   │   │       │           │   ├── abc_action_menu_item_layout.xml
+│   │   │   │       │           │   ├── abc_action_menu_layout.xml
+│   │   │   │       │           │   ├── abc_action_mode_bar.xml
+│   │   │   │       │           │   ├── abc_action_mode_close_item_material.xml
+│   │   │   │       │           │   ├── abc_activity_chooser_view.xml
+│   │   │   │       │           │   ├── abc_activity_chooser_view_list_item.xml
+│   │   │   │       │           │   ├── abc_alert_dialog_material.xml
+│   │   │   │       │           │   ├── abc_dialog_title_material.xml
+│   │   │   │       │           │   ├── abc_expanded_menu_layout.xml
+│   │   │   │       │           │   ├── abc_list_menu_item_checkbox.xml
+│   │   │   │       │           │   ├── abc_list_menu_item_icon.xml
+│   │   │   │       │           │   ├── abc_list_menu_item_layout.xml
+│   │   │   │       │           │   ├── abc_list_menu_item_radio.xml
+│   │   │   │       │           │   ├── abc_popup_menu_item_layout.xml
+│   │   │   │       │           │   ├── abc_screen_content_include.xml
+│   │   │   │       │           │   ├── abc_screen_simple.xml
+│   │   │   │       │           │   ├── abc_screen_simple_overlay_action_mode.xml
+│   │   │   │       │           │   ├── abc_screen_toolbar.xml
+│   │   │   │       │           │   ├── abc_search_dropdown_item_icons_2line.xml
+│   │   │   │       │           │   ├── abc_search_view.xml
+│   │   │   │       │           │   ├── abc_select_dialog_material.xml
+│   │   │   │       │           │   ├── notification_media_action.xml
+│   │   │   │       │           │   ├── notification_media_cancel_action.xml
+│   │   │   │       │           │   ├── notification_template_big_media.xml
+│   │   │   │       │           │   ├── notification_template_big_media_narrow.xml
+│   │   │   │       │           │   ├── notification_template_lines.xml
+│   │   │   │       │           │   ├── notification_template_media.xml
+│   │   │   │       │           │   ├── notification_template_part_chronometer.xml
+│   │   │   │       │           │   ├── notification_template_part_time.xml
+│   │   │   │       │           │   ├── select_dialog_item_material.xml
+│   │   │   │       │           │   ├── select_dialog_multichoice_material.xml
+│   │   │   │       │           │   ├── select_dialog_singlechoice_material.xml
+│   │   │   │       │           │   └── support_simple_spinner_dropdown_item.xml
+│   │   │   │       │           ├── values
+│   │   │   │       │           │   └── values.xml
+│   │   │   │       │           ├── values-af
+│   │   │   │       │           │   └── values-af.xml
+│   │   │   │       │           ├── values-am
+│   │   │   │       │           │   └── values-am.xml
+│   │   │   │       │           ├── values-ar
+│   │   │   │       │           │   └── values-ar.xml
+│   │   │   │       │           ├── values-az-rAZ
+│   │   │   │       │           │   └── values-az-rAZ.xml
+│   │   │   │       │           ├── values-bg
+│   │   │   │       │           │   └── values-bg.xml
+│   │   │   │       │           ├── values-bn-rBD
+│   │   │   │       │           │   └── values-bn-rBD.xml
+│   │   │   │       │           ├── values-ca
+│   │   │   │       │           │   └── values-ca.xml
+│   │   │   │       │           ├── values-cs
+│   │   │   │       │           │   └── values-cs.xml
+│   │   │   │       │           ├── values-da
+│   │   │   │       │           │   └── values-da.xml
+│   │   │   │       │           ├── values-de
+│   │   │   │       │           │   └── values-de.xml
+│   │   │   │       │           ├── values-el
+│   │   │   │       │           │   └── values-el.xml
+│   │   │   │       │           ├── values-en-rAU
+│   │   │   │       │           │   └── values-en-rAU.xml
+│   │   │   │       │           ├── values-en-rGB
+│   │   │   │       │           │   └── values-en-rGB.xml
+│   │   │   │       │           ├── values-en-rIN
+│   │   │   │       │           │   └── values-en-rIN.xml
+│   │   │   │       │           ├── values-es
+│   │   │   │       │           │   └── values-es.xml
+│   │   │   │       │           ├── values-es-rUS
+│   │   │   │       │           │   └── values-es-rUS.xml
+│   │   │   │       │           ├── values-et-rEE
+│   │   │   │       │           │   └── values-et-rEE.xml
+│   │   │   │       │           ├── values-eu-rES
+│   │   │   │       │           │   └── values-eu-rES.xml
+│   │   │   │       │           ├── values-fa
+│   │   │   │       │           │   └── values-fa.xml
+│   │   │   │       │           ├── values-fi
+│   │   │   │       │           │   └── values-fi.xml
+│   │   │   │       │           ├── values-fr
+│   │   │   │       │           │   └── values-fr.xml
+│   │   │   │       │           ├── values-fr-rCA
+│   │   │   │       │           │   └── values-fr-rCA.xml
+│   │   │   │       │           ├── values-gl-rES
+│   │   │   │       │           │   └── values-gl-rES.xml
+│   │   │   │       │           ├── values-gu-rIN
+│   │   │   │       │           │   └── values-gu-rIN.xml
+│   │   │   │       │           ├── values-h720dp
+│   │   │   │       │           │   └── values-h720dp.xml
+│   │   │   │       │           ├── values-hdpi
+│   │   │   │       │           │   └── values-hdpi.xml
+│   │   │   │       │           ├── values-hi
+│   │   │   │       │           │   └── values-hi.xml
+│   │   │   │       │           ├── values-hr
+│   │   │   │       │           │   └── values-hr.xml
+│   │   │   │       │           ├── values-hu
+│   │   │   │       │           │   └── values-hu.xml
+│   │   │   │       │           ├── values-hy-rAM
+│   │   │   │       │           │   └── values-hy-rAM.xml
+│   │   │   │       │           ├── values-in
+│   │   │   │       │           │   └── values-in.xml
+│   │   │   │       │           ├── values-is-rIS
+│   │   │   │       │           │   └── values-is-rIS.xml
+│   │   │   │       │           ├── values-it
+│   │   │   │       │           │   └── values-it.xml
+│   │   │   │       │           ├── values-iw
+│   │   │   │       │           │   └── values-iw.xml
+│   │   │   │       │           ├── values-ja
+│   │   │   │       │           │   └── values-ja.xml
+│   │   │   │       │           ├── values-ka-rGE
+│   │   │   │       │           │   └── values-ka-rGE.xml
+│   │   │   │       │           ├── values-kk-rKZ
+│   │   │   │       │           │   └── values-kk-rKZ.xml
+│   │   │   │       │           ├── values-km-rKH
+│   │   │   │       │           │   └── values-km-rKH.xml
+│   │   │   │       │           ├── values-kn-rIN
+│   │   │   │       │           │   └── values-kn-rIN.xml
+│   │   │   │       │           ├── values-ko
+│   │   │   │       │           │   └── values-ko.xml
+│   │   │   │       │           ├── values-ky-rKG
+│   │   │   │       │           │   └── values-ky-rKG.xml
+│   │   │   │       │           ├── values-land
+│   │   │   │       │           │   └── values-land.xml
+│   │   │   │       │           ├── values-large
+│   │   │   │       │           │   └── values-large.xml
+│   │   │   │       │           ├── values-lo-rLA
+│   │   │   │       │           │   └── values-lo-rLA.xml
+│   │   │   │       │           ├── values-lt
+│   │   │   │       │           │   └── values-lt.xml
+│   │   │   │       │           ├── values-lv
+│   │   │   │       │           │   └── values-lv.xml
+│   │   │   │       │           ├── values-mk-rMK
+│   │   │   │       │           │   └── values-mk-rMK.xml
+│   │   │   │       │           ├── values-ml-rIN
+│   │   │   │       │           │   └── values-ml-rIN.xml
+│   │   │   │       │           ├── values-mn-rMN
+│   │   │   │       │           │   └── values-mn-rMN.xml
+│   │   │   │       │           ├── values-mr-rIN
+│   │   │   │       │           │   └── values-mr-rIN.xml
+│   │   │   │       │           ├── values-ms-rMY
+│   │   │   │       │           │   └── values-ms-rMY.xml
+│   │   │   │       │           ├── values-my-rMM
+│   │   │   │       │           │   └── values-my-rMM.xml
+│   │   │   │       │           ├── values-nb
+│   │   │   │       │           │   └── values-nb.xml
+│   │   │   │       │           ├── values-ne-rNP
+│   │   │   │       │           │   └── values-ne-rNP.xml
+│   │   │   │       │           ├── values-nl
+│   │   │   │       │           │   └── values-nl.xml
+│   │   │   │       │           ├── values-pa-rIN
+│   │   │   │       │           │   └── values-pa-rIN.xml
+│   │   │   │       │           ├── values-pl
+│   │   │   │       │           │   └── values-pl.xml
+│   │   │   │       │           ├── values-port
+│   │   │   │       │           │   └── values-port.xml
+│   │   │   │       │           ├── values-pt
+│   │   │   │       │           │   └── values-pt.xml
+│   │   │   │       │           ├── values-pt-rPT
+│   │   │   │       │           │   └── values-pt-rPT.xml
+│   │   │   │       │           ├── values-ro
+│   │   │   │       │           │   └── values-ro.xml
+│   │   │   │       │           ├── values-ru
+│   │   │   │       │           │   └── values-ru.xml
+│   │   │   │       │           ├── values-si-rLK
+│   │   │   │       │           │   └── values-si-rLK.xml
+│   │   │   │       │           ├── values-sk
+│   │   │   │       │           │   └── values-sk.xml
+│   │   │   │       │           ├── values-sl
+│   │   │   │       │           │   └── values-sl.xml
+│   │   │   │       │           ├── values-sq-rAL
+│   │   │   │       │           │   └── values-sq-rAL.xml
+│   │   │   │       │           ├── values-sr
+│   │   │   │       │           │   └── values-sr.xml
+│   │   │   │       │           ├── values-sv
+│   │   │   │       │           │   └── values-sv.xml
+│   │   │   │       │           ├── values-sw
+│   │   │   │       │           │   └── values-sw.xml
+│   │   │   │       │           ├── values-sw600dp
+│   │   │   │       │           │   └── values-sw600dp.xml
+│   │   │   │       │           ├── values-ta-rIN
+│   │   │   │       │           │   └── values-ta-rIN.xml
+│   │   │   │       │           ├── values-te-rIN
+│   │   │   │       │           │   └── values-te-rIN.xml
+│   │   │   │       │           ├── values-th
+│   │   │   │       │           │   └── values-th.xml
+│   │   │   │       │           ├── values-tl
+│   │   │   │       │           │   └── values-tl.xml
+│   │   │   │       │           ├── values-tr
+│   │   │   │       │           │   └── values-tr.xml
+│   │   │   │       │           ├── values-uk
+│   │   │   │       │           │   └── values-uk.xml
+│   │   │   │       │           ├── values-ur-rPK
+│   │   │   │       │           │   └── values-ur-rPK.xml
+│   │   │   │       │           ├── values-uz-rUZ
+│   │   │   │       │           │   └── values-uz-rUZ.xml
+│   │   │   │       │           ├── values-v11
+│   │   │   │       │           │   └── values-v11.xml
+│   │   │   │       │           ├── values-v12
+│   │   │   │       │           │   └── values-v12.xml
+│   │   │   │       │           ├── values-v14
+│   │   │   │       │           │   └── values-v14.xml
+│   │   │   │       │           ├── values-v17
+│   │   │   │       │           │   └── values-v17.xml
+│   │   │   │       │           ├── values-v18
+│   │   │   │       │           │   └── values-v18.xml
+│   │   │   │       │           ├── values-v21
+│   │   │   │       │           │   └── values-v21.xml
+│   │   │   │       │           ├── values-v22
+│   │   │   │       │           │   └── values-v22.xml
+│   │   │   │       │           ├── values-v23
+│   │   │   │       │           │   └── values-v23.xml
+│   │   │   │       │           ├── values-vi
+│   │   │   │       │           │   └── values-vi.xml
+│   │   │   │       │           ├── values-w360dp
+│   │   │   │       │           │   └── values-w360dp.xml
+│   │   │   │       │           ├── values-w480dp
+│   │   │   │       │           │   └── values-w480dp.xml
+│   │   │   │       │           ├── values-w500dp
+│   │   │   │       │           │   └── values-w500dp.xml
+│   │   │   │       │           ├── values-w600dp
+│   │   │   │       │           │   └── values-w600dp.xml
+│   │   │   │       │           ├── values-w720dp
+│   │   │   │       │           │   └── values-w720dp.xml
+│   │   │   │       │           ├── values-xlarge
+│   │   │   │       │           │   └── values-xlarge.xml
+│   │   │   │       │           ├── values-xlarge-land
+│   │   │   │       │           │   └── values-xlarge-land.xml
+│   │   │   │       │           ├── values-zh-rCN
+│   │   │   │       │           │   └── values-zh-rCN.xml
+│   │   │   │       │           ├── values-zh-rHK
+│   │   │   │       │           │   └── values-zh-rHK.xml
+│   │   │   │       │           ├── values-zh-rTW
+│   │   │   │       │           │   └── values-zh-rTW.xml
+│   │   │   │       │           └── values-zu
+│   │   │   │       │               └── values-zu.xml
+│   │   │   │       └── support-v4
+│   │   │   │           └── 23.0.0
+│   │   │   │               ├── AndroidManifest.xml
+│   │   │   │               ├── aapt
+│   │   │   │               │   └── AndroidManifest.xml
+│   │   │   │               ├── aidl
+│   │   │   │               │   └── android
+│   │   │   │               │       └── support
+│   │   │   │               │           └── v4
+│   │   │   │               │               └── media
+│   │   │   │               │                   ├── MediaMetadataCompat.aidl
+│   │   │   │               │                   ├── RatingCompat.aidl
+│   │   │   │               │                   └── session
+│   │   │   │               │                       ├── MediaSessionCompat.aidl
+│   │   │   │               │                       ├── ParcelableVolumeInfo.aidl
+│   │   │   │               │                       └── PlaybackStateCompat.aidl
+│   │   │   │               ├── annotations.zip
+│   │   │   │               ├── assets
+│   │   │   │               ├── jars
+│   │   │   │               │   ├── classes.jar
+│   │   │   │               │   └── libs
+│   │   │   │               │       └── internal_impl-23.0.0.jar
+│   │   │   │               ├── libs
+│   │   │   │               └── res
+│   │   │   ├── incremental
+│   │   │   │   ├── aidl
+│   │   │   │   │   ├── androidTest
+│   │   │   │   │   │   └── debug
+│   │   │   │   │   │       └── dependency.store
+│   │   │   │   │   └── debug
+│   │   │   │   │       └── dependency.store
+│   │   │   │   ├── mergeAssets
+│   │   │   │   │   ├── androidTest
+│   │   │   │   │   │   └── debug
+│   │   │   │   │   │       └── merger.xml
+│   │   │   │   │   └── debug
+│   │   │   │   │       └── merger.xml
+│   │   │   │   ├── mergeResourcesandroidTest
+│   │   │   │   │   └── debug
+│   │   │   │   │       └── merger.xml
+│   │   │   │   └── mergeResourcesdebug
+│   │   │   │       └── merger.xml
+│   │   │   ├── manifest
+│   │   │   │   ├── androidTest
+│   │   │   │   │   └── debug
+│   │   │   │   │       └── AndroidManifest.xml
+│   │   │   │   └── tmp
+│   │   │   ├── manifests
+│   │   │   │   └── full
+│   │   │   │       └── debug
+│   │   │   │           └── AndroidManifest.xml
+│   │   │   ├── pre-dexed
+│   │   │   │   └── debug
+│   │   │   │       ├── classes-6ea9f1602c47cdb2c4d1e55da04562b8bb18d7c2.jar
+│   │   │   │       ├── classes-ae52a9f7652809b7488f2b3e3d07ec401d0ca664.jar
+│   │   │   │       ├── internal_impl-23.0.0-00897e2d15d94d5a8644b5055df06e1921cabe96.jar
+│   │   │   │       └── support-annotations-23.0.0-e7c0299e7e0d160e3054e71bea4e5800c27f3a26.jar
+│   │   │   ├── res
+│   │   │   │   ├── merged
+│   │   │   │   │   ├── androidTest
+│   │   │   │   │   │   └── debug
+│   │   │   │   │   └── debug
+│   │   │   │   │       ├── anim
+│   │   │   │   │       │   ├── abc_fade_in.xml
+│   │   │   │   │       │   ├── abc_fade_out.xml
+│   │   │   │   │       │   ├── abc_grow_fade_in_from_bottom.xml
+│   │   │   │   │       │   ├── abc_popup_enter.xml
+│   │   │   │   │       │   ├── abc_popup_exit.xml
+│   │   │   │   │       │   ├── abc_shrink_fade_out_from_bottom.xml
+│   │   │   │   │       │   ├── abc_slide_in_bottom.xml
+│   │   │   │   │       │   ├── abc_slide_in_top.xml
+│   │   │   │   │       │   ├── abc_slide_out_bottom.xml
+│   │   │   │   │       │   └── abc_slide_out_top.xml
+│   │   │   │   │       ├── color
+│   │   │   │   │       │   ├── abc_background_cache_hint_selector_material_dark.xml
+│   │   │   │   │       │   ├── abc_background_cache_hint_selector_material_light.xml
+│   │   │   │   │       │   ├── abc_primary_text_disable_only_material_dark.xml
+│   │   │   │   │       │   ├── abc_primary_text_disable_only_material_light.xml
+│   │   │   │   │       │   ├── abc_primary_text_material_dark.xml
+│   │   │   │   │       │   ├── abc_primary_text_material_light.xml
+│   │   │   │   │       │   ├── abc_search_url_text.xml
+│   │   │   │   │       │   ├── abc_secondary_text_material_dark.xml
+│   │   │   │   │       │   ├── abc_secondary_text_material_light.xml
+│   │   │   │   │       │   ├── switch_thumb_material_dark.xml
+│   │   │   │   │       │   └── switch_thumb_material_light.xml
+│   │   │   │   │       ├── color-v11
+│   │   │   │   │       │   ├── abc_background_cache_hint_selector_material_dark.xml
+│   │   │   │   │       │   └── abc_background_cache_hint_selector_material_light.xml
+│   │   │   │   │       ├── color-v23
+│   │   │   │   │       │   └── abc_color_highlight_material.xml
+│   │   │   │   │       ├── drawable
+│   │   │   │   │       │   ├── abc_btn_borderless_material.xml
+│   │   │   │   │       │   ├── abc_btn_check_material.xml
+│   │   │   │   │       │   ├── abc_btn_colored_material.xml
+│   │   │   │   │       │   ├── abc_btn_default_mtrl_shape.xml
+│   │   │   │   │       │   ├── abc_btn_radio_material.xml
+│   │   │   │   │       │   ├── abc_cab_background_internal_bg.xml
+│   │   │   │   │       │   ├── abc_cab_background_top_material.xml
+│   │   │   │   │       │   ├── abc_dialog_material_background_dark.xml
+│   │   │   │   │       │   ├── abc_dialog_material_background_light.xml
+│   │   │   │   │       │   ├── abc_edit_text_material.xml
+│   │   │   │   │       │   ├── abc_item_background_holo_dark.xml
+│   │   │   │   │       │   ├── abc_item_background_holo_light.xml
+│   │   │   │   │       │   ├── abc_list_selector_background_transition_holo_dark.xml
+│   │   │   │   │       │   ├── abc_list_selector_background_transition_holo_light.xml
+│   │   │   │   │       │   ├── abc_list_selector_holo_dark.xml
+│   │   │   │   │       │   ├── abc_list_selector_holo_light.xml
+│   │   │   │   │       │   ├── abc_ratingbar_full_material.xml
+│   │   │   │   │       │   ├── abc_spinner_textfield_background_material.xml
+│   │   │   │   │       │   ├── abc_switch_thumb_material.xml
+│   │   │   │   │       │   ├── abc_tab_indicator_material.xml
+│   │   │   │   │       │   ├── abc_text_cursor_material.xml
+│   │   │   │   │       │   └── abc_textfield_search_material.xml
+│   │   │   │   │       ├── drawable-hdpi
+│   │   │   │   │       │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │   │       │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_list_focused_holo.9.png
+│   │   │   │   │       │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │   │       │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │   │       ├── drawable-ldrtl-hdpi
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       ├── drawable-ldrtl-mdpi
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       ├── drawable-ldrtl-xhdpi
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       ├── drawable-ldrtl-xxhdpi
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       ├── drawable-ldrtl-xxxhdpi
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   └── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       ├── drawable-mdpi
+│   │   │   │   │       │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │   │       │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_list_focused_holo.9.png
+│   │   │   │   │       │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │   │       │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │   │       ├── drawable-v21
+│   │   │   │   │       │   ├── abc_action_bar_item_background_material.xml
+│   │   │   │   │       │   └── abc_btn_colored_material.xml
+│   │   │   │   │       ├── drawable-v23
+│   │   │   │   │       │   └── abc_control_background_material.xml
+│   │   │   │   │       ├── drawable-xhdpi
+│   │   │   │   │       │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │   │       │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_list_focused_holo.9.png
+│   │   │   │   │       │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │   │       │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │   │       ├── drawable-xxhdpi
+│   │   │   │   │       │   ├── abc_ab_share_pack_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_off_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_rating_star_on_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │   │       │   ├── abc_cab_background_top_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_commit_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_go_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_list_divider_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_list_focused_holo.9.png
+│   │   │   │   │       │   ├── abc_list_longpressed_holo.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_pressed_holo_light.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_dark.9.png
+│   │   │   │   │       │   ├── abc_list_selector_disabled_holo_light.9.png
+│   │   │   │   │       │   ├── abc_menu_hardkey_panel_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_popup_background_mtrl_mult.9.png
+│   │   │   │   │       │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_default_mtrl_alpha.9.png
+│   │   │   │   │       │   ├── abc_textfield_search_activated_mtrl_alpha.9.png
+│   │   │   │   │       │   └── abc_textfield_search_default_mtrl_alpha.9.png
+│   │   │   │   │       ├── drawable-xxxhdpi
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_check_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_000.png
+│   │   │   │   │       │   ├── abc_btn_radio_to_on_mtrl_015.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00001.9.png
+│   │   │   │   │       │   ├── abc_btn_switch_to_on_mtrl_00012.9.png
+│   │   │   │   │       │   ├── abc_ic_ab_back_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_clear_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_copy_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_cut_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_moreoverflow_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_paste_mtrl_am_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_selectall_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_menu_share_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_ic_voice_search_api_mtrl_alpha.png
+│   │   │   │   │       │   ├── abc_spinner_mtrl_am_alpha.9.png
+│   │   │   │   │       │   ├── abc_switch_track_mtrl_alpha.9.png
+│   │   │   │   │       │   └── abc_tab_indicator_mtrl_alpha.9.png
+│   │   │   │   │       ├── layout
+│   │   │   │   │       │   ├── abc_action_bar_title_item.xml
+│   │   │   │   │       │   ├── abc_action_bar_up_container.xml
+│   │   │   │   │       │   ├── abc_action_bar_view_list_nav_layout.xml
+│   │   │   │   │       │   ├── abc_action_menu_item_layout.xml
+│   │   │   │   │       │   ├── abc_action_menu_layout.xml
+│   │   │   │   │       │   ├── abc_action_mode_bar.xml
+│   │   │   │   │       │   ├── abc_action_mode_close_item_material.xml
+│   │   │   │   │       │   ├── abc_activity_chooser_view.xml
+│   │   │   │   │       │   ├── abc_activity_chooser_view_list_item.xml
+│   │   │   │   │       │   ├── abc_alert_dialog_material.xml
+│   │   │   │   │       │   ├── abc_dialog_title_material.xml
+│   │   │   │   │       │   ├── abc_expanded_menu_layout.xml
+│   │   │   │   │       │   ├── abc_list_menu_item_checkbox.xml
+│   │   │   │   │       │   ├── abc_list_menu_item_icon.xml
+│   │   │   │   │       │   ├── abc_list_menu_item_layout.xml
+│   │   │   │   │       │   ├── abc_list_menu_item_radio.xml
+│   │   │   │   │       │   ├── abc_popup_menu_item_layout.xml
+│   │   │   │   │       │   ├── abc_screen_content_include.xml
+│   │   │   │   │       │   ├── abc_screen_simple.xml
+│   │   │   │   │       │   ├── abc_screen_simple_overlay_action_mode.xml
+│   │   │   │   │       │   ├── abc_screen_toolbar.xml
+│   │   │   │   │       │   ├── abc_search_dropdown_item_icons_2line.xml
+│   │   │   │   │       │   ├── abc_search_view.xml
+│   │   │   │   │       │   ├── abc_select_dialog_material.xml
+│   │   │   │   │       │   ├── activity_main.xml
+│   │   │   │   │       │   ├── notification_media_action.xml
+│   │   │   │   │       │   ├── notification_media_cancel_action.xml
+│   │   │   │   │       │   ├── notification_template_big_media.xml
+│   │   │   │   │       │   ├── notification_template_big_media_narrow.xml
+│   │   │   │   │       │   ├── notification_template_lines.xml
+│   │   │   │   │       │   ├── notification_template_media.xml
+│   │   │   │   │       │   ├── notification_template_part_chronometer.xml
+│   │   │   │   │       │   ├── notification_template_part_time.xml
+│   │   │   │   │       │   ├── select_dialog_item_material.xml
+│   │   │   │   │       │   ├── select_dialog_multichoice_material.xml
+│   │   │   │   │       │   ├── select_dialog_singlechoice_material.xml
+│   │   │   │   │       │   └── support_simple_spinner_dropdown_item.xml
+│   │   │   │   │       ├── menu
+│   │   │   │   │       │   └── menu_main.xml
+│   │   │   │   │       ├── mipmap-hdpi
+│   │   │   │   │       │   └── ic_launcher.png
+│   │   │   │   │       ├── mipmap-mdpi
+│   │   │   │   │       │   └── ic_launcher.png
+│   │   │   │   │       ├── mipmap-xhdpi
+│   │   │   │   │       │   └── ic_launcher.png
+│   │   │   │   │       ├── mipmap-xxhdpi
+│   │   │   │   │       │   └── ic_launcher.png
+│   │   │   │   │       ├── values
+│   │   │   │   │       │   └── values.xml
+│   │   │   │   │       ├── values-af
+│   │   │   │   │       │   └── values-af.xml
+│   │   │   │   │       ├── values-am
+│   │   │   │   │       │   └── values-am.xml
+│   │   │   │   │       ├── values-ar
+│   │   │   │   │       │   └── values-ar.xml
+│   │   │   │   │       ├── values-az-rAZ
+│   │   │   │   │       │   └── values-az-rAZ.xml
+│   │   │   │   │       ├── values-bg
+│   │   │   │   │       │   └── values-bg.xml
+│   │   │   │   │       ├── values-bn-rBD
+│   │   │   │   │       │   └── values-bn-rBD.xml
+│   │   │   │   │       ├── values-ca
+│   │   │   │   │       │   └── values-ca.xml
+│   │   │   │   │       ├── values-cs
+│   │   │   │   │       │   └── values-cs.xml
+│   │   │   │   │       ├── values-da
+│   │   │   │   │       │   └── values-da.xml
+│   │   │   │   │       ├── values-de
+│   │   │   │   │       │   └── values-de.xml
+│   │   │   │   │       ├── values-el
+│   │   │   │   │       │   └── values-el.xml
+│   │   │   │   │       ├── values-en-rAU
+│   │   │   │   │       │   └── values-en-rAU.xml
+│   │   │   │   │       ├── values-en-rGB
+│   │   │   │   │       │   └── values-en-rGB.xml
+│   │   │   │   │       ├── values-en-rIN
+│   │   │   │   │       │   └── values-en-rIN.xml
+│   │   │   │   │       ├── values-es
+│   │   │   │   │       │   └── values-es.xml
+│   │   │   │   │       ├── values-es-rUS
+│   │   │   │   │       │   └── values-es-rUS.xml
+│   │   │   │   │       ├── values-et-rEE
+│   │   │   │   │       │   └── values-et-rEE.xml
+│   │   │   │   │       ├── values-eu-rES
+│   │   │   │   │       │   └── values-eu-rES.xml
+│   │   │   │   │       ├── values-fa
+│   │   │   │   │       │   └── values-fa.xml
+│   │   │   │   │       ├── values-fi
+│   │   │   │   │       │   └── values-fi.xml
+│   │   │   │   │       ├── values-fr
+│   │   │   │   │       │   └── values-fr.xml
+│   │   │   │   │       ├── values-fr-rCA
+│   │   │   │   │       │   └── values-fr-rCA.xml
+│   │   │   │   │       ├── values-gl-rES
+│   │   │   │   │       │   └── values-gl-rES.xml
+│   │   │   │   │       ├── values-gu-rIN
+│   │   │   │   │       │   └── values-gu-rIN.xml
+│   │   │   │   │       ├── values-h720dp
+│   │   │   │   │       │   └── values-h720dp.xml
+│   │   │   │   │       ├── values-hdpi
+│   │   │   │   │       │   └── values-hdpi.xml
+│   │   │   │   │       ├── values-hi
+│   │   │   │   │       │   └── values-hi.xml
+│   │   │   │   │       ├── values-hr
+│   │   │   │   │       │   └── values-hr.xml
+│   │   │   │   │       ├── values-hu
+│   │   │   │   │       │   └── values-hu.xml
+│   │   │   │   │       ├── values-hy-rAM
+│   │   │   │   │       │   └── values-hy-rAM.xml
+│   │   │   │   │       ├── values-in
+│   │   │   │   │       │   └── values-in.xml
+│   │   │   │   │       ├── values-is-rIS
+│   │   │   │   │       │   └── values-is-rIS.xml
+│   │   │   │   │       ├── values-it
+│   │   │   │   │       │   └── values-it.xml
+│   │   │   │   │       ├── values-iw
+│   │   │   │   │       │   └── values-iw.xml
+│   │   │   │   │       ├── values-ja
+│   │   │   │   │       │   └── values-ja.xml
+│   │   │   │   │       ├── values-ka-rGE
+│   │   │   │   │       │   └── values-ka-rGE.xml
+│   │   │   │   │       ├── values-kk-rKZ
+│   │   │   │   │       │   └── values-kk-rKZ.xml
+│   │   │   │   │       ├── values-km-rKH
+│   │   │   │   │       │   └── values-km-rKH.xml
+│   │   │   │   │       ├── values-kn-rIN
+│   │   │   │   │       │   └── values-kn-rIN.xml
+│   │   │   │   │       ├── values-ko
+│   │   │   │   │       │   └── values-ko.xml
+│   │   │   │   │       ├── values-ky-rKG
+│   │   │   │   │       │   └── values-ky-rKG.xml
+│   │   │   │   │       ├── values-land
+│   │   │   │   │       │   └── values-land.xml
+│   │   │   │   │       ├── values-large
+│   │   │   │   │       │   └── values-large.xml
+│   │   │   │   │       ├── values-lo-rLA
+│   │   │   │   │       │   └── values-lo-rLA.xml
+│   │   │   │   │       ├── values-lt
+│   │   │   │   │       │   └── values-lt.xml
+│   │   │   │   │       ├── values-lv
+│   │   │   │   │       │   └── values-lv.xml
+│   │   │   │   │       ├── values-mk-rMK
+│   │   │   │   │       │   └── values-mk-rMK.xml
+│   │   │   │   │       ├── values-ml-rIN
+│   │   │   │   │       │   └── values-ml-rIN.xml
+│   │   │   │   │       ├── values-mn-rMN
+│   │   │   │   │       │   └── values-mn-rMN.xml
+│   │   │   │   │       ├── values-mr-rIN
+│   │   │   │   │       │   └── values-mr-rIN.xml
+│   │   │   │   │       ├── values-ms-rMY
+│   │   │   │   │       │   └── values-ms-rMY.xml
+│   │   │   │   │       ├── values-my-rMM
+│   │   │   │   │       │   └── values-my-rMM.xml
+│   │   │   │   │       ├── values-nb
+│   │   │   │   │       │   └── values-nb.xml
+│   │   │   │   │       ├── values-ne-rNP
+│   │   │   │   │       │   └── values-ne-rNP.xml
+│   │   │   │   │       ├── values-nl
+│   │   │   │   │       │   └── values-nl.xml
+│   │   │   │   │       ├── values-pa-rIN
+│   │   │   │   │       │   └── values-pa-rIN.xml
+│   │   │   │   │       ├── values-pl
+│   │   │   │   │       │   └── values-pl.xml
+│   │   │   │   │       ├── values-port
+│   │   │   │   │       │   └── values-port.xml
+│   │   │   │   │       ├── values-pt
+│   │   │   │   │       │   └── values-pt.xml
+│   │   │   │   │       ├── values-pt-rPT
+│   │   │   │   │       │   └── values-pt-rPT.xml
+│   │   │   │   │       ├── values-ro
+│   │   │   │   │       │   └── values-ro.xml
+│   │   │   │   │       ├── values-ru
+│   │   │   │   │       │   └── values-ru.xml
+│   │   │   │   │       ├── values-si-rLK
+│   │   │   │   │       │   └── values-si-rLK.xml
+│   │   │   │   │       ├── values-sk
+│   │   │   │   │       │   └── values-sk.xml
+│   │   │   │   │       ├── values-sl
+│   │   │   │   │       │   └── values-sl.xml
+│   │   │   │   │       ├── values-sq-rAL
+│   │   │   │   │       │   └── values-sq-rAL.xml
+│   │   │   │   │       ├── values-sr
+│   │   │   │   │       │   └── values-sr.xml
+│   │   │   │   │       ├── values-sv
+│   │   │   │   │       │   └── values-sv.xml
+│   │   │   │   │       ├── values-sw
+│   │   │   │   │       │   └── values-sw.xml
+│   │   │   │   │       ├── values-sw600dp
+│   │   │   │   │       │   └── values-sw600dp.xml
+│   │   │   │   │       ├── values-ta-rIN
+│   │   │   │   │       │   └── values-ta-rIN.xml
+│   │   │   │   │       ├── values-te-rIN
+│   │   │   │   │       │   └── values-te-rIN.xml
+│   │   │   │   │       ├── values-th
+│   │   │   │   │       │   └── values-th.xml
+│   │   │   │   │       ├── values-tl
+│   │   │   │   │       │   └── values-tl.xml
+│   │   │   │   │       ├── values-tr
+│   │   │   │   │       │   └── values-tr.xml
+│   │   │   │   │       ├── values-uk
+│   │   │   │   │       │   └── values-uk.xml
+│   │   │   │   │       ├── values-ur-rPK
+│   │   │   │   │       │   └── values-ur-rPK.xml
+│   │   │   │   │       ├── values-uz-rUZ
+│   │   │   │   │       │   └── values-uz-rUZ.xml
+│   │   │   │   │       ├── values-v11
+│   │   │   │   │       │   └── values-v11.xml
+│   │   │   │   │       ├── values-v12
+│   │   │   │   │       │   └── values-v12.xml
+│   │   │   │   │       ├── values-v14
+│   │   │   │   │       │   └── values-v14.xml
+│   │   │   │   │       ├── values-v17
+│   │   │   │   │       │   └── values-v17.xml
+│   │   │   │   │       ├── values-v18
+│   │   │   │   │       │   └── values-v18.xml
+│   │   │   │   │       ├── values-v21
+│   │   │   │   │       │   └── values-v21.xml
+│   │   │   │   │       ├── values-v22
+│   │   │   │   │       │   └── values-v22.xml
+│   │   │   │   │       ├── values-v23
+│   │   │   │   │       │   └── values-v23.xml
+│   │   │   │   │       ├── values-vi
+│   │   │   │   │       │   └── values-vi.xml
+│   │   │   │   │       ├── values-w360dp
+│   │   │   │   │       │   └── values-w360dp.xml
+│   │   │   │   │       ├── values-w480dp
+│   │   │   │   │       │   └── values-w480dp.xml
+│   │   │   │   │       ├── values-w500dp
+│   │   │   │   │       │   └── values-w500dp.xml
+│   │   │   │   │       ├── values-w600dp
+│   │   │   │   │       │   └── values-w600dp.xml
+│   │   │   │   │       ├── values-w720dp
+│   │   │   │   │       │   └── values-w720dp.xml
+│   │   │   │   │       ├── values-w820dp
+│   │   │   │   │       │   └── values-w820dp.xml
+│   │   │   │   │       ├── values-xlarge
+│   │   │   │   │       │   └── values-xlarge.xml
+│   │   │   │   │       ├── values-xlarge-land
+│   │   │   │   │       │   └── values-xlarge-land.xml
+│   │   │   │   │       ├── values-zh-rCN
+│   │   │   │   │       │   └── values-zh-rCN.xml
+│   │   │   │   │       ├── values-zh-rHK
+│   │   │   │   │       │   └── values-zh-rHK.xml
+│   │   │   │   │       ├── values-zh-rTW
+│   │   │   │   │       │   └── values-zh-rTW.xml
+│   │   │   │   │       └── values-zu
+│   │   │   │   │           └── values-zu.xml
+│   │   │   │   ├── resources-debug-androidTest.ap_
+│   │   │   │   └── resources-debug.ap_
+│   │   │   ├── rs
+│   │   │   │   ├── androidTest
+│   │   │   │   │   └── debug
+│   │   │   │   │       ├── lib
+│   │   │   │   │       └── obj
+│   │   │   │   └── debug
+│   │   │   │       ├── lib
+│   │   │   │       └── obj
+│   │   │   ├── symbols
+│   │   │   │   ├── androidTest
+│   │   │   │   │   └── debug
+│   │   │   │   └── debug
+│   │   │   │       └── R.txt
+│   │   │   └── tmp
+│   │   │       └── dex
+│   │   │           └── debug
+│   │   ├── outputs
+│   │   │   ├── apk
+│   │   │   │   ├── app-debug-unaligned.apk
+│   │   │   │   └── app-debug.apk
+│   │   │   └── logs
+│   │   │       └── manifest-merger-debug-report.txt
+│   │   └── tmp
+│   │       └── compileDebugJavaWithJavac
+│   │           └── emptySourcePathRef
+│   ├── build.gradle
+│   ├── libs
+│   ├── proguard-rules.pro
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       │       └── zhangx
+│       │           └── kb3
+│       │               └── ApplicationTest.java
+│       └── main
+│           ├── AndroidManifest.xml
+│           ├── java
+│           │   └── zhangx
+│           │       └── kb3
+│           │           └── MainActivity.java
+│           └── res
+│               ├── drawable
+│               ├── layout
+│               │   └── activity_main.xml
+│               ├── menu
+│               │   └── menu_main.xml
+│               ├── mipmap-hdpi
+│               │   └── ic_launcher.png
+│               ├── mipmap-mdpi
+│               │   └── ic_launcher.png
+│               ├── mipmap-xhdpi
+│               │   └── ic_launcher.png
+│               ├── mipmap-xxhdpi
+│               │   └── ic_launcher.png
+│               ├── values
+│               │   ├── dimens.xml
+│               │   ├── strings.xml
+│               │   └── styles.xml
+│               └── values-w820dp
+│                   └── dimens.xml
+├── build
+│   └── intermediates
+│       ├── dex-cache
+│       │   └── cache.xml
+│       └── gradle_project_sync_data.bin
+├── build.gradle
+├── gradle
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+└── settings.gradle
+
+392 directories, 853 files
