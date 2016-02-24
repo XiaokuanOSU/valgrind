@@ -3,7 +3,7 @@
 PACKAGE="zhangx.kb3"
 
 adb push start_valgrind.sh /data/local/
-#adb shell chmod 777 /data/local/start_valgrind.sh 
+adb shell su -c chmod 777 /data/local/start_valgrind.sh 
 
 adb root
 adb shell setprop wrap.$PACKAGE "logwrapper\ /data/local/start_valgrind.sh"

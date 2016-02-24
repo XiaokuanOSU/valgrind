@@ -10,4 +10,4 @@ VGPARAMS=' --tool=callgrind --trace-children=no --error-limit=no --compress-stri
 #--kernel-variant=android-no-hw-tls
 export TMPDIR=/data/data/$PACKAGE
 
-adb shell -c /data/local/Inst/bin/valgrind $VGPARAMS $* 
+adb shell su -c /data/local/Inst/bin/valgrind $VGPARAMS $* 
